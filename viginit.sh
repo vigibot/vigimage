@@ -3,7 +3,7 @@
 set -e
 set -u
 
-if [ ! -f image.zip ]
+if [ ! -f image.img ]
 then
  wget https://www.vigibot.com/raspbian/image.zip
  unzip image.zip
