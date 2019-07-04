@@ -20,8 +20,8 @@
 
 - Flash the vigimage.img on your micro SD card
 - Inside the boot partition
- - Inside "wpa_supplicant.conf" change the "Demo" SSID and the "Default" password to match your own Wi-Fi network
- - Inside "robot.json" change the "Demo" login and the "Default" password to match your own robot account
+  - Inside "wpa_supplicant.conf" change the "Demo" SSID and the "Default" password to match your own Wi-Fi network
+  - Inside "robot.json" change the "Demo" login and the "Default" password to match your own robot account
 - Power up your Raspberry PI
 - Take a look at the default server https://www.vigibot.com
 - SSH is enabled inside this image, please remember to change the default "raspberry" password of the "pi" account
