@@ -17,5 +17,7 @@ wget https://www.vigibot.com/vigiclient/install.sh -P vigimage/tmp -N
 cat << EOF | chroot vigimage
 apt update
 apt upgrade -y
+chmod +x /tmp/install.sh
 /tmp/install.sh
+rm /tmp/install.sh
 EOF
