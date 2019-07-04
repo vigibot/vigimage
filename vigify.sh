@@ -10,7 +10,10 @@ fi
 
 echo "Updating image"
 
-cp /usr/bin/qemu-arm-static vigimage/usr/bin
+if [ -f /usr/bin/qemu-arm-static ]
+then
+ cp /usr/bin/qemu-arm-static vigimage/usr/bin
+fi
 
 touch vigimage/boot/ssh
 wget https://www.vigibot.com/vigimage/wpa_supplicant.conf -P vigimage/boot -N
