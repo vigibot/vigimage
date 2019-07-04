@@ -13,7 +13,7 @@ echo "Updating image"
 cp /usr/bin/qemu-arm-static vigimage/usr/bin
 
 touch vigimage/boot/ssh
-wget https://www.vigibot.com/vigimage/wpa_supplicant.conf -P vigimage/etc/wpa_supplicant -N
+wget https://www.vigibot.com/vigimage/wpa_supplicant.conf -P vigimage/boot -N
 
 wget https://www.vigibot.com/vigiclient/install.sh -P vigimage/tmp -N
 
