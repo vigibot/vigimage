@@ -4,7 +4,7 @@
 
 ### Everything is already done
 
-- You can directly download the image https://www.vigibot.com/vigimage/vigimage.zip and jump to the "Windows or Linux headless installation" part
+- You can directly jump to the "Windows or Linux headless installation"
 
 ### Prerequisites
 
@@ -18,6 +18,7 @@
 
 ### Windows or Linux headless installation
 
+- Download the image https://www.vigibot.com/vigimage/vigimage.zip
 - Unzip vigimage.zip
 - Flash vigimage.img on your micro SD card
 - Inside the boot partition
