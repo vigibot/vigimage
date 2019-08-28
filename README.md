@@ -20,7 +20,7 @@
 
 - Download the image https://www.vigibot.com/vigimage/vigimage.zip
 - Unzip vigimage.zip
-- Flash vigimage.img on your micro SD card
+- Flash vigimage.img on your micro SD card. On Windows, you can use "HDD Raw Copy Tool" https://hddguru.com/software/HDD-Raw-Copy-Tool
 - Inside the boot partition
   - Inside "wpa_supplicant.conf" change the "Demo" SSID and the "Default" password to match your own Wi-Fi network
   - Inside "robot.json" change the "Demo" login and the "Default" password to match your own robot account
