@@ -26,4 +26,5 @@
   - Inside "robot.json" change the "Demo" login and the "Default" password to match your own robot account
 - Power up your Raspberry PI
 - Take a look at the default server https://www.vigibot.com
+- Due to compilation process, the first boot take a minimum of ten minutes before robot to appear on the website: do not power off the Raspberry PI during this time
 - SSH is enabled inside this image, please remember to change the default "raspberry" password of the "pi" account
