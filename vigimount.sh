@@ -5,6 +5,7 @@ set -u
 
 if [ -d vigimage ]
 then
+ echo "The image is already mounted"
  exit 1
 fi
 
