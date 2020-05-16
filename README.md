@@ -8,7 +8,7 @@
 
 ### Prerequisites
 
-- apt install -y git wget unzip kpartx qemu-user-static binfmt-support parted
+- apt install -y git wget unzip kpartx qemu-user-static parted
 
 ### Image generation
 
