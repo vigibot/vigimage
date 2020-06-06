@@ -11,7 +11,7 @@ fi
 
 echo "Resizing image"
 
-dd if=/dev/zero bs=1M count=100 >> vigimage.img
+dd if=/dev/zero bs=1M count=500 >> vigimage.img
 parted vigimage.img resizepart 2 100%
 kpartx -asv vigimage.img
 e2fsck -f /dev/mapper/loop0p2
