@@ -22,7 +22,7 @@
 - Unzip vigimage.zip
 - Flash vigimage.img on your micro SD card. On Windows, you can use "HDD Raw Copy Tool" https://hddguru.com/software/HDD-Raw-Copy-Tool
 - Inside the boot partition
-  - Inside "wpa_supplicant.conf" change the "Demo" SSID and the "Default" password to match your own Wi-Fi network
+  - Inside "wpa_supplicant.conf" change the "Vigibot.com" SSID and the "Vigipass" password to match your own Wi-Fi network
   - Inside "robot.json" change the "Demo" login and the "Default" password to match your own robot account
 - Power up your Raspberry PI
 - Take a look at the default server https://www.vigibot.com
